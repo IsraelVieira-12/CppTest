@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "../lib/adder.h"
+#include "../Lib/adder.h"
 
 void Trim(int argc, char** argv) {
 

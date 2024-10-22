@@ -16,6 +16,17 @@
             "intelliSenseMode": "windows-gcc-x64",
             "configurationProvider": "ms-vscode.makefile-tools",
             "compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
