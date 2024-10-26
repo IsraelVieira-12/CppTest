@@ -1,7 +1,8 @@
 {
     "files.eol": "\n",
     "files.associations": {
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "thread": "cpp"
     },
     "cmake.ignoreCMakeListsMissing": true,
 }

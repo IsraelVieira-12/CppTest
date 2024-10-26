@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
 project(cpptest)
 add_executable(${PROJECT_NAME} main.cpp)
-target_link_directories(cpptest PRIVATE ${CMAKE_SOURCE_DIR}/../lib/build/)
+target_link_directories(cpptest PRIVATE ${CMAKE_SOURCE_DIR}../../Adder/build/)
 target_link_libraries(${PROJECT_NAME} israelmath)
