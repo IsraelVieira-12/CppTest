@@ -28,7 +28,7 @@ void setNonBlockingInput(bool enable) {
 }
 
 // Function to check if a key has been pressed (Linux version)
-bool kbhit() {
+bool _kbhit() {
     char ch;
     int n = read(STDIN_FILENO, &ch, 1);
     if (n > 0) {
@@ -49,17 +49,10 @@ void LoopPress() {
 #endif
 
     while (true) {
-#ifdef _WIN32
-        // Check for keypress on Windows
+        // Check for keypress
         if (_kbhit()) {
             break;
         }
-#else
-        // Check for keypress on Linux
-        if (kbhit()) {
-            break;
-        }
-#endif
 
         // Loop body
         std::cout << "Iteration: " << ++counter << std::endl;
