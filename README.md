@@ -1,4 +1,4 @@
-## Linux Dependencies
+## Dependencies
 
 ## Debian/Ubuntu/Linux Mint:
 
