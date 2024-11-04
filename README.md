@@ -1,4 +1,10 @@
-## Dependencies
+## Initialize submodules
+
+```
+git submodule update --init --recursive
+```
+
+## Linux Dependencies
 
 ### Debian/Ubuntu/Linux Mint:
 
@@ -21,3 +27,12 @@ pkg install wayland libxkbcommon evdev-proto xorgproto
 ### Source:
 
 https://www.glfw.org/docs/latest/compile_guide.html#compile_deps_wayland
+
+
+## Build and run
+
+```
+./configure.sh
+./build.sh
+./run.sh
+```

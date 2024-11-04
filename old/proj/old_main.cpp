@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "../../Adder/adder.h"
+#include "adder.h"
 
 #include <iostream>
 #include <chrono>
