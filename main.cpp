@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Adder/adder.h"
+#include <adder.h>
 #include <GLFW/glfw3.h>
 
 int main(){
