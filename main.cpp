@@ -1,11 +1,14 @@
 #include <iostream>
 #include <adder.h>
 #include <GLFW/glfw3.h>
+#include <CPPTESTConfig.h>
 
-int main(){
+int main(int argc, char *argv[]){
+
     std::cout << "Hello world!\n";
-
     std::cout << israelmath::add(72.1f, 73.8f) << "\n";
+
+    std::cout << argv[0] << " Version" << CPPTEST_VERSION_MAJOR << "." << CPPTEST_VERSION_MINOR << std::endl;
 
     GLFWwindow *window;
 

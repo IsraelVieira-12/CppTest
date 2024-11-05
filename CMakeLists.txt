@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.13.4)
 
-project(cpptest)
+project(CPPTEST VERSION 1.0)
+
+configure_file(CPPTESTConfig.h.in CPPTESTConfig.h)
 
 add_executable(${PROJECT_NAME} main.cpp)
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
 
 add_subdirectory(Adder)
 
